@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rianto.smk.MainActivity">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+
+
+
+    <TextView
+        android:background="@drawable/bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Indonesia Android Kejar"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:id="@+id/textView" />
+
+
+    <Button
+        android:id="@+id/btnJadwalSholat"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="43dp"
+        android:background="#EC7063"
+        android:text="Jadwal Sholat"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btnKFC"
+        android:layout_width="145dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/btnJadwalSholat"
+        android:layout_alignLeft="@+id/btnJadwalSholat"
+        android:layout_alignRight="@+id/btnJadwalSholat"
+        android:layout_alignStart="@+id/btnJadwalSholat"
+        android:layout_below="@+id/btnJadwalSholat"
+        android:layout_marginTop="16dp"
+        android:background="#EC7063"
+        android:text="Pesan KFC"
+        android:textStyle="bold"/>
+
+
+    <Button
+        android:id="@+id/btnMcDonal"
+        android:layout_width="145dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/btnKFC"
+        android:layout_alignLeft="@+id/btnKFC"
+        android:layout_alignRight="@+id/btnKFC"
+        android:layout_alignStart="@+id/btnKFC"
+        android:layout_below="@+id/btnKFC"
+        android:layout_marginTop="15dp"
+        android:background="#EC7063"
+        android:text="Pesan McDonald"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnGoogleMaps"
+        android:layout_width="145dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/btnCgv"
+        android:layout_alignLeft="@+id/btnCgv"
+        android:layout_alignRight="@+id/btnCgv"
+        android:layout_alignStart="@+id/btnCgv"
+        android:layout_below="@+id/btnCgv"
+        android:layout_marginTop="15dp"
+        android:background="#EC7063"
+        android:text="Google Maps"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/btnCgv"
+        android:layout_width="145dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/btnMcDonal"
+        android:layout_alignLeft="@+id/btnMcDonal"
+        android:layout_alignRight="@+id/btnMcDonal"
+        android:layout_alignStart="@+id/btnMcDonal"
+        android:layout_below="@+id/btnMcDonal"
+        android:layout_marginTop="13dp"
+        android:background="#EC7063"
+        android:text="Cinema Cgv"
+        android:textStyle="bold" />
+
+
+
+
+</RelativeLayout>
